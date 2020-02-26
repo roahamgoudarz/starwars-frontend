@@ -1,0 +1,10 @@
+#starwar-information{
+    width:100%;text-align:center;margin:25px auto 0;
+    height:auto;
+    max-height: 0px; overflow-y: hidden;
+    box-sizing: border-box; padding:10px;
+    transition:max-height 0.3s ease-out;
+
+
+}
+

@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: Roboto;
+    background: #000;
+    color: #ffe81f;
+}
+
+.checkout-btn {
+    background: #ffe81f;
+    border-radius: 5px;
+    padding: 10px 26px;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    border-bottom: 15px solid #C2AE00;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    outline: 0;
+    height: 96px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.checkout-btn:hover {
+    background: #FDED63;
+    border-bottom: 12px solid #C2AE00;
+
+}
+
+.checkout-btn:active {
+    background: #FDED63;
+    color: #C2AE00;
+    border-bottom: 5px solid #C2AE00;
+}
+
+
+
+
+#starwar-information section {
+    margin-top: 58px;
+
+}
+
+#starwar-information section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+#starwar-information section ul {
+    list-style: none;
+}
+
+#starwar-information section ul li {
+    font-size: 24px;
+    font-weight: bold;
+}
