@@ -49,7 +49,7 @@ class AuthPage extends Component {
       };
     }
 
-    fetch('http://localhost/backend/index.php?action=auth', {
+    fetch('http://localhost/starwars-backend/index.php?action=auth', {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: {

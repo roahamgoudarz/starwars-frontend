@@ -52,7 +52,7 @@ fetchData = async (i) => {
 
 
     return new Promise((resolve, reject) => {
-    fetch(`http://localhost/backend/index.php?action=${i}`, {
+    fetch(`http://localhost/starwars-backend/index.php?action=${i}`, {
     method: 'POST',
     body: JSON.stringify(requestBody),
     headers: {
